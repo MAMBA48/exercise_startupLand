@@ -70,18 +70,43 @@ span {
     flex-direction: row;
 }
 #info-graphic {
-    border: 1px solid red;
     padding: 20px;
     width: auto;
 }
 #info-graphic-btt {
     margin-top: 20px;
 }
+#more {
+    display: flex;
+    cursor: pointer;
+    border: none;
+    align-items: center;
+    justify-content: center;
+    height: auto;
+    width: auto;
+}
+#more img{
+    object-fit: cover;
+    height: 10px;
+    width: 10px;
+}
+.graphic-opc {
+    display: flex;
+    border: none;
+    background-color: #F6F8FB;
+    justify-content: space-between;
+    border-radius: 10px;
+    margin-top: 10px;
+    padding: 10px;
+}
+.graphic-opc-less {
+    background-color: #F6F8FB;
+    padding: 10px;
+}
 #info-graphic h1 {
     font-size: 1.5rem;
 }
 #graphic-img {
-    border: 1px solid greenyellow;
     width: 600px;
     height: 500px;
 }
@@ -142,8 +167,9 @@ span {
 .inp-style {
     all: unset;
     padding: 4px;
-    height: 26px;
-    width: 160px;
+    font-size: 0.850rem;
+    height: 28px;
+    width: auto;
     border-radius: 8px;
     box-shadow: 0px 0px 10px 0.2px rgba(0, 0, 0, 0.199)
 }
@@ -176,7 +202,6 @@ section {
     display: flex;
     flex-direction: column;
     height: auto;
-    border: 1px solid green;
     margin-bottom: 80px;
 }
 ul {
